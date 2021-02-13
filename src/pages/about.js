@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Head from "next/head"
 
-import Link from "next/link"
 import Image from "next/image"
 import Navbar from "../components/Navbar"
 
@@ -44,7 +43,7 @@ const SocialContainer = styled.div`
     
 `
 
-const Social = styled(Image)`
+const SocialImage = styled(Image)`
     display: flex;
     margin-right: 2%;
 
@@ -71,9 +70,9 @@ const About = () => {
         Hit me up if you're interesting (trust me, you probably are)!    
         </Text>
         <SocialContainer>
-            <Link href="https://t.me/marakuas"><Social src="/telegram.svg" width={25} height={25} /></Link>
-            <Link href="https://twitter.com/marakuas"><Social src="/twitter.svg" width={25} height={25}/></Link>
-            <Link href="https://github.com/MountVase"><Social src="/github.svg" width={25} height={25}/></Link>
+            <a href="https://t.me/marakuas" target="_blank" rel="noopener noreferrer"><SocialImage src="/telegram.svg" width={25} height={25} /></a>
+            <a href="https://twitter.com/marakuas" target="_blank" rel="noopener noreferrer"><SocialImage src="/twitter.svg" width={25} height={25}/></a>
+            <a href="https://github.com/MountVase" target="_blank" rel="noopener noreferrer"><SocialImage src="/github.svg" width={25} height={25}/></a>
         </SocialContainer>
         </Container>
         </>
