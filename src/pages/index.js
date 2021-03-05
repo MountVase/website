@@ -4,6 +4,8 @@ import styled from "styled-components"
 import Navbar from "../components/Navbar"
 import Image from "next/image"
 
+import Typist from "react-typist"
+
 
 const Container = styled.div`
   display: flex;
@@ -50,6 +52,15 @@ const ImageContainer = styled.div`
   margin-left: 15%;
 `
 
+const Dorg = styled.a`
+  color: blue;
+
+  :hover {
+    color: brown;
+    background-color: white;
+  }
+`
+
 
 
 
@@ -62,19 +73,43 @@ const Home = () => {
         <Navbar />
         <Container>
           <InnerContainer>
-            <Title>Virtual metamorphosis</Title>
+
+            
+              <Title>
+              <Typist >
+                <Typist.Delay ms={500}/>
+                Virtual metamorphosis
+                <Typist.Backspace count={13} delay={1000}/>
+
+                garden
+                <Typist.Backspace count={6} delay={700}/>
+                jungle
+                <Typist.Backspace count={6} delay={700}/>
+
+                lounge
+                <Typist.Delay ms={300}/>
+                {" "}for hangouts
+                <Typist.Backspace count={19} delay={500}/>
+
+                home. 
+
+              </Typist>
+              </Title>
+            
+
             <Text>Hi, I'm Markus Vasemägi. <br/> 
-                  This is a {`{living}`} website that changes, evolves & reacts. <br/>
-                  I'll try to be authentic, through my writing & talking. <br/>
-                  | <br/>
-                  | <br/>
+                  {" "} <br/>
                   I love the intersection between cutting edge blockchain technology, <br/>
                   and ancient peer2peer human networks.
+                  Currently building web3 stuff <Dorg href="https://dorg.tech" target="_blank" rel="noopener noreferrer">@dOrg</Dorg><br/>
+                
+
+                  
             </Text>
             
             <Text>
-              You can checkout some stuff I've done, chat with me, <br/>
-              or with people who I connect with, through our mainly voice-chat <StyledLink href="https://t.me/joinchat/I2zlmlQn6sD9kep5">community telegram.</StyledLink>
+              Browse around, and maybe hop into our mainly voice-chat <br/>
+               <StyledLink href="https://t.me/joinchat/I2zlmlQn6sD9kep5">community telegram.</StyledLink>
               
             </Text>
           </InnerContainer>

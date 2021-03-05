@@ -60,14 +60,15 @@ const About = () => {
         <Container>
         <Title>Markus Vasemägi</Title>
         <Text>
-        Hi there. This is literally the first draft of the website so bear with me. <br/>
+        Happy you're here.  <br/>
         I'm a crypto fanatic, and also enjoy reading about anthropology regarding  <br/>
         timeless human social interaction.
         </Text>
 
         <Text>
         Currently living in Finland, soon somewhere else. <br/>
-        Hit me up if you're interesting (trust me, you probably are)!    
+        Writing a bio is surprisingly tricky... <br/>
+        --- more ---
         </Text>
         <SocialContainer>
             <a href="https://t.me/marakuas" target="_blank" rel="noopener noreferrer"><SocialImage src="/telegram.svg" width={25} height={25} /></a>
