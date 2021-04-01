@@ -67,8 +67,6 @@ const About = () => {
 
         <Text>
         Currently living in Finland, soon somewhere else. <br/>
-        Writing a bio is surprisingly tricky... <br/>
-        --- more ---
         </Text>
         <SocialContainer>
             <a href="https://t.me/marakuas" target="_blank" rel="noopener noreferrer"><SocialImage src="/telegram.svg" width={25} height={25} /></a>

@@ -107,11 +107,6 @@ const Home = () => {
                   
             </Text>
             
-            <Text>
-              Browse around, and maybe hop into our mainly voice-chat <br/>
-               <StyledLink href="https://t.me/joinchat/I2zlmlQn6sD9kep5">community telegram.</StyledLink>
-              
-            </Text>
           </InnerContainer>
           <ImageContainer>
             <Image src="/dolphin.svg" height={400} width={400} />
