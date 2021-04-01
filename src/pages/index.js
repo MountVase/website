@@ -69,7 +69,6 @@ const Home = () => {
   return (
    
     <>
-	 
         <Navbar />
         <Container>
           <InnerContainer>
