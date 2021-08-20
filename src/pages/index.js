@@ -96,7 +96,7 @@ const Home = () => {
               </Title>
             
 
-            <Text>Hi, I'm Markus Vasemägi. <br/> 
+            <Text>Hi, I'm Markus Vaas. <br/> 
                   {" "} <br/>
                   I love the intersection between cutting edge blockchain technology, <br/>
                   and ancient peer2peer human networks.
